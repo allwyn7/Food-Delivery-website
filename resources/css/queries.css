@@ -1,0 +1,34 @@
+/* For big tablets to 1200px (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        padding: 0 2%;
+        width: 100%;
+    }
+    
+    .row{ padding: 0 2%; }
+}
+
+/* For small tablet to big tablets 768-1023p */
+@media only screen and (max-width: 1023px) {
+    body{ font-size: 18px;}
+    section{ padding: 60px 0; }
+    
+    .long-copy{
+    line-height: 145%;
+    width: 80%;
+    margin-left: 10%;
+    }
+    .steps-box { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 80px; }
+}
+
+/* For small phones to small tablets 481-767p */
+@media only screen and (max-width: 767px) {
+    
+}
+
+/* For small phones 0-480p */
+@media only screen and (max-width: 480px) {
+    
+}
